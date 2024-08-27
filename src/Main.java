@@ -5,10 +5,11 @@ public class Main {
         Scanner n = new Scanner(System.in);
 
         System.out.println("Enter x :");
-        int x = n.nextInt();
+        String  x = n.nextLine();
         System.out.println("Enter y :");
-        int y = n.nextInt();
-        int z = x+y;
+        String  y = n.nextLine();
+        String z = x+y;
         System.out.println("Sum = "+z);
+        System.out.println(x);
     }
 }
